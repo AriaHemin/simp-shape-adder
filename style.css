@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vh;
+}
+
+button{
+    background-color: cornflowerblue;
+    border: 0 ;
+    color: white;
+    border-radius: 16px;
+    font-size: 5vh;
+    padding: 5px 15px;
+
+
+}
+
+button:hover{
+    background-color: rgb(209, 209, 209);
+}
+
+button:active{
+    background-color: rgb(54, 54, 54);
+
+}
+
+
+
+#fruitBox{
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    border-radius: 10px;
+    border: 2px solid cornflowerblue;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+
+#fruitBox div{
+    font-size: 10vw;
+    text-align: center;
+
+
+}
